@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Quadrat</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .stage{
+            position: relative;
+        }
+        .form{
+            position: absolute;
+        }
+        .quadrat {
+           
+            width: 20vw;
+            height: 20vw;
+            background-color: crimson;
+            left: 20vw;
+            top: 27vw;
+            }
+        
+       
+        .kreis{
+            width: 20vw;
+            height: 20vw;
+            background-color:coral;
+            border-radius: 50%;
+        }
+        .stage{
+            overflow: hidden;
+            margin: 10px auto;
+            width: 89vw;
+            height: 42vw;
+            background: lightgrey;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="stage stage-01">
+        <div class="form quadrat"
+             style="left:50vw; top:20"></div>
+        <div class="form kreis"></div>
+    </div>
+     <div class="stage stage-02">
+        <div class="form quadrat" 
+             style="left:13vw; top:8vw; z-index:10"></div>
+        <div class="form kreis"
+             style="z-index: 9"></div>
+    </div>
+     <div class="stage stage-03">
+        <div class="form quadrat"></div>
+        <div class="form kreis"></div>
+    </div>
+    
+    
+    
+</body>
+
+
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Quadrat</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .quadrat {
+            margin: 0 auto;
+            width: 20vw;
+            height: 20vw;
+            background-color: crimson;
+            }
+        
+        .stage-02 .quadrat, 
+        .stage-03 .quadrat {
+            margin: 0 0;
+            
+        }
+        .stage-03{
+            display: flex;
+        }
+        .kreis{
+            width: 20vw;
+            height: 20vw;
+            background-color:coral;
+            border-radius: 50%;
+        }
+        .stage{
+            margin: 10px auto;
+            width: 89vw;
+            height: 42vw;
+            background: lightgrey;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="stage stage-01">
+        <div class="quadrat"></div>
+        <div class="kreis"></div>
+    </div>
+     <div class="stage stage-02">
+        <div class="quadrat"></div>
+        <div class="kreis"></div>
+    </div>
+     <div class="stage stage-03">
+        <div class="quadrat"></div>
+        <div class="kreis"></div>
+    </div>
+    
+    
+    
+</body>
+
+
+
+</html>
